@@ -10,7 +10,7 @@ a{
 
 /* Challenge 7: Create a class rule, container that set the display property to flex */
 .container{
-  flex:display;
+  display:flex;
 }
 /* Challenge 8: Create a class rule, column that set the flex-direction property to column */
 .column{
@@ -23,13 +23,13 @@ a{
 }
 /* Challenge 10: Modify the below CSS rule in order set the flex property for all the hyperlinks in the nav element to 1 */
 nav a{
-  flex:display;
+  flex:1;
   text-align:center;
   padding:10px;
   transition:0.5s
 }
 nav a:hover{
-    flex:display;
+    flex:1;
     background-color:blue;
     color:white;
     transition:0.5s;
